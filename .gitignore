@@ -1,0 +1,17 @@
+# Python bytecode
+__pycache__/
+
+# Test / tooling caches
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Editor: keep project-level config, drop machine-local state
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Debugging
+debug/*
