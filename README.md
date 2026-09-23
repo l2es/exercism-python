@@ -22,6 +22,7 @@ Written and tested against **Python 3.13**.
 [Lists](#lists) ·
 [Tuples](#tuples) ·
 [Dictionaries](#dictionaries) ·
+[Sets](#sets) ·
 [Unpacking & Multiple Assignment](#unpacking--multiple-assignment)
 
 ---
@@ -111,6 +112,15 @@ exchange counters.*
 | --- | --- | --- |
 | [Inventory Management](inventory-management/) | `dicts.py` | Building dicts, `.get()`, `.items()`, `.pop()`, iterating, adding and removing keys |
 | [Mecha Munch Management](mecha-munch-management/) | `dict_methods.py` | `.update()`, `.get()`, `.items()`, `dict.fromkeys()`, sorting dict entries with `sorted()` |
+
+## Sets
+
+*Catering a party: de-duping ingredients, sorting dishes into dietary categories and
+flagging allergens.*
+
+| Exercise | File | What it covers |
+| --- | --- | --- |
+| [Cater Waiter](cater-waiter/) | `sets.py` | Building sets with `set()`, union `\|`, intersection `&`, difference `-`, subset testing with `<=`, `.isdisjoint()` |
 
 ## Unpacking & Multiple Assignment
 
